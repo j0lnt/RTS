@@ -1,9 +1,6 @@
 using System.Linq;
-using Abstractions;
 using UnityEngine;
 
-namespace UserControlSystem
-{
     public class MouseInteractionsPresenter : MonoBehaviour
     {
         [SerializeField] private Camera _camera;
@@ -26,4 +23,3 @@ namespace UserControlSystem
             _selectableValue.SetValue(selectable);
         }
     }
-}

@@ -1,11 +1,8 @@
-﻿using Abstractions;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace UserControlSystem
-{
-    public class BottomLeftPresenter : MonoBehaviour
+public class BottomLeftPresenter : MonoBehaviour
     {
         [SerializeField] private Image _selectedImage;
         [SerializeField] private Slider _healthSlider;
@@ -40,4 +37,3 @@ namespace UserControlSystem
             }
         }
     }
-}

@@ -31,9 +31,9 @@ using UnityEngine.UI;
                 .Add(typeof(CommandExecutorBase<IProduceUnitCommand>), _produceUnitButton);
         }
 
-        public void MakeLayout(IEnumerable<ICommandExecutor> commandExecutors)
+        public void MakeLayout(List<ICommandExecutor> commandExecutors)
         {
-            foreach (var currentExecutor in commandExecutors)
+            foreach (ICommandExecutor currentExecutor in commandExecutors)
             {
                 var buttonGameObject = _buttonsByExecutorType
                     .Where(type => type

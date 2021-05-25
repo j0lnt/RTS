@@ -677,6 +677,10 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Utils.csproj">
+      <Project>{8e6cfeb4-6af3-ba7a-19f4-a995412da0ab}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
     <ProjectReference Include="Abstractions.csproj">
       <Project>{e639cf21-61de-88c7-88b7-8f8d1a8ddb8e}</Project>
       <Name>Abstractions</Name>

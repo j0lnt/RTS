@@ -15,11 +15,11 @@ E:/Unity/RTS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56853
+57823
 Successfully changed project path to: E:/Unity/RTS
 E:/Unity/RTS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,787 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002178 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.611 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000680 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 2.161400 ms (FindLiveObjects: 0.283600 ms CreateObjectMapping: 0.170600 ms MarkObjects: 1.630100 ms  DeleteObjects: 0.076000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ScriptableObjects/AssetsContext.asset
+  artifactKey: Guid(c9d378e2daf669b46b8a0597eeefede4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/AssetsContext.asset using Guid(c9d378e2daf669b46b8a0597eeefede4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76139616f478edb488252d4c02c87f5d') in 0.099398 seconds
+  Import took 0.101198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.914003 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperAttack.fbx
+  artifactKey: Guid(257e753645ba2954ca2439c671e5337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperAttack.fbx using Guid(257e753645ba2954ca2439c671e5337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b39513c3de92d30ca511e34b0a3ea6') in 0.883619 seconds
+  Import took 0.886231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperHit2.fbx
+  artifactKey: Guid(d923bfbf69372aa46bdc5d794fe3dde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperHit2.fbx using Guid(d923bfbf69372aa46bdc5d794fe3dde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d3d02299d45e894d76f00d53e298d9') in 0.262644 seconds
+  Import took 0.264972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo2.fbx
+  artifactKey: Guid(506fbaf36141f7842ad5ad583349cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo2.fbx using Guid(506fbaf36141f7842ad5ad583349cc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f3fb804eadb9ce62821cc0de8a5b8d') in 0.194521 seconds
+  Import took 0.197314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo4.fbx
+  artifactKey: Guid(6fd1fb8479e6a994f9e4cc7fb79d2ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo4.fbx using Guid(6fd1fb8479e6a994f9e4cc7fb79d2ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b98269f8f545e67a299d37e927c11d') in 0.259418 seconds
+  Import took 0.261832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo1.fbx
+  artifactKey: Guid(3aeb280aa07caa148891a47a136fcee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo1.fbx using Guid(3aeb280aa07caa148891a47a136fcee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7caf6e9946b1505f1687a7c84112ba7') in 0.148387 seconds
+  Import took 0.151922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo3.fbx
+  artifactKey: Guid(d0d401bb3fc68574296f7ff69e81546c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenCombo3.fbx using Guid(d0d401bb3fc68574296f7ff69e81546c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1f922861132bfb4774843b2996e09f') in 0.125810 seconds
+  Import took 0.128342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFrontRight.fbx
+  artifactKey: Guid(404644dc800da814b941c3e7c306379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFrontRight.fbx using Guid(404644dc800da814b941c3e7c306379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c38f263f3ce63810fc36c29d7e798c') in 0.128115 seconds
+  Import took 0.130854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenGunIdle.fbx
+  artifactKey: Guid(0e0341343f16f8349afc3114b11c71d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenGunIdle.fbx using Guid(0e0341343f16f8349afc3114b11c71d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90a6c915d322c43f50d789923bad12f') in 0.118551 seconds
+  Import took 0.123891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenGunShoot.fbx
+  artifactKey: Guid(60b35be23e16e5746972444b244460e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenGunShoot.fbx using Guid(60b35be23e16e5746972444b244460e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ab9d4e30c3dcf93438d6b7b3da6088') in 0.129395 seconds
+  Import took 0.133016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFrontLeft.fbx
+  artifactKey: Guid(b7e13748b64e49b438b795a58809535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFrontLeft.fbx using Guid(b7e13748b64e49b438b795a58809535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb245683c83ab3ccf3f4f7f362c0179') in 0.149643 seconds
+  Import took 0.153336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBack.fbx
+  artifactKey: Guid(ef55d1093a664e447940f6fade733a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBack.fbx using Guid(ef55d1093a664e447940f6fade733a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9899b777dac9f9ff71cad80edbdab9c4') in 0.121367 seconds
+  Import took 0.124176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenGunPutAway.fbx
+  artifactKey: Guid(3fca713ac647fc742a74a4aa7922c425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenGunPutAway.fbx using Guid(3fca713ac647fc742a74a4aa7922c425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e82b37294187910062af86ec564782') in 0.110604 seconds
+  Import took 0.112818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBackLeft.fbx
+  artifactKey: Guid(d23b5a928bc7a32438c1c802c144007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBackLeft.fbx using Guid(d23b5a928bc7a32438c1c802c144007f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c783e33354995952dc812936e6aa67') in 0.225207 seconds
+  Import took 0.227286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenQuickTurnRight.fbx
+  artifactKey: Guid(3aa06abc72aea9e4bb96a7adbc69536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenQuickTurnRight.fbx using Guid(3aa06abc72aea9e4bb96a7adbc69536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d971102d8bb907d98ac92c27dcc65f6') in 0.255857 seconds
+  Import took 0.283119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle2.fbx
+  artifactKey: Guid(da8a135eea6ec3c4ea78d2932814c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle2.fbx using Guid(da8a135eea6ec3c4ea78d2932814c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf35bf47c1fd4e6ad89c858c5a01cb8') in 0.125139 seconds
+  Import took 0.128259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000901 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenQuickTurnLeft.fbx
+  artifactKey: Guid(a9d04fff68c607a4e88339bdff08268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenQuickTurnLeft.fbx using Guid(a9d04fff68c607a4e88339bdff08268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8320d2b2d1829e553f89a31dff0b63d4') in 0.117775 seconds
+  Import took 0.121287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunBackward.fbx
+  artifactKey: Guid(fc7d28091fde6ea49a66fed092cff1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunBackward.fbx using Guid(fc7d28091fde6ea49a66fed092cff1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd598a62f02887abddce86dc9718e4f8b') in 0.123717 seconds
+  Import took 0.126753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenIdle.fbx
+  artifactKey: Guid(83b647f9ffea82b4a9680e016dec2197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenIdle.fbx using Guid(83b647f9ffea82b4a9680e016dec2197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf6b2d6275ff7df6f2e02c35a4cab96') in 0.129802 seconds
+  Import took 0.133361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90LeftWalk.fbx
+  artifactKey: Guid(634a692c84f454f4daf76eef5f14d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90LeftWalk.fbx using Guid(634a692c84f454f4daf76eef5f14d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb063bf219e0a04b7e86b069e388c8e') in 0.125506 seconds
+  Import took 0.128347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForward.fbx
+  artifactKey: Guid(591b8bf650e73d641a396d03b9f6af89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForward.fbx using Guid(591b8bf650e73d641a396d03b9f6af89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8422c1ad8f9eff434803307193e184') in 0.119555 seconds
+  Import took 0.122533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenJump.fbx
+  artifactKey: Guid(1bbe72df8c2b6af46bfbadad72175372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenJump.fbx using Guid(1bbe72df8c2b6af46bfbadad72175372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a85ded9154f42fbb1b31cc238e3fb2') in 0.128132 seconds
+  Import took 0.131105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForwardBackwardTransition.fbx
+  artifactKey: Guid(7f7de4b0c45098b4bb8c8a28c32699f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForwardBackwardTransition.fbx using Guid(7f7de4b0c45098b4bb8c8a28c32699f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5404c8dd682e364241c9a4b6682bdd56') in 0.122996 seconds
+  Import took 0.125782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenIdleLandFast.fbx
+  artifactKey: Guid(e6a235e8d3cc58747881167cd3742502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenIdleLandFast.fbx using Guid(e6a235e8d3cc58747881167cd3742502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691ce3ccd502450b46f9402f2dcaae7e') in 0.153861 seconds
+  Import took 0.158848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFront.fbx
+  artifactKey: Guid(62b2a28a812b9b146916a9cd1a84f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitFront.fbx using Guid(62b2a28a812b9b146916a9cd1a84f0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103aa46eddda9912022d369a7f0f8a65') in 0.301090 seconds
+  Import took 0.307539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180LeftRun.fbx
+  artifactKey: Guid(23e8fd4601309de4fbbd93bd4b6c1afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180LeftRun.fbx using Guid(23e8fd4601309de4fbbd93bd4b6c1afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe607d874d216b398d41516b57df8da0') in 0.122263 seconds
+  Import took 0.125894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle1.fbx
+  artifactKey: Guid(e7f8d149f8d7e5242a52e530f0782e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle1.fbx using Guid(e7f8d149f8d7e5242a52e530f0782e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62839958ab7cac84c86428e41cfe1bca') in 0.131106 seconds
+  Import took 0.133839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForwardLanding.fbx
+  artifactKey: Guid(69d6fb34dcfd40d47b53a45b6666faa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForwardLanding.fbx using Guid(69d6fb34dcfd40d47b53a45b6666faa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472db3a7bd95311027a1ae54a0f34fc0') in 0.149339 seconds
+  Import took 0.152684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90RightWalk.fbx
+  artifactKey: Guid(c8577a90f79f06842becdb9853f5e672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90RightWalk.fbx using Guid(c8577a90f79f06842becdb9853f5e672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e39f5d42d252e9fa6095fece0cf9892') in 0.157249 seconds
+  Import took 0.160222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenSpawn.fbx
+  artifactKey: Guid(118c1440644eccb46ba5d8a2657a9556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenSpawn.fbx using Guid(118c1440644eccb46ba5d8a2657a9556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a2c20d82d0ed44eef761d0f5631058') in 0.166067 seconds
+  Import took 0.169259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenDeath.fbx
+  artifactKey: Guid(75c0b8ca7a51b3544a4af8381af8db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenDeath.fbx using Guid(75c0b8ca7a51b3544a4af8381af8db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b496012d7749066707baecb3f0527fed') in 0.246621 seconds
+  Import took 0.250442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForwardLandingFast.fbx
+  artifactKey: Guid(74640275d27b66a4fa863f592bb4a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRunForwardLandingFast.fbx using Guid(74640275d27b66a4fa863f592bb4a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57efa86348c828ece88f011c11bc0461') in 0.121294 seconds
+  Import took 0.128793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90RightRun.fbx
+  artifactKey: Guid(b7af0645675cb8f46b8668fdd8c1c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90RightRun.fbx using Guid(b7af0645675cb8f46b8668fdd8c1c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708e84c43f01ddea6ed4b490ef854aff') in 0.112351 seconds
+  Import took 0.114644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitLeft.fbx
+  artifactKey: Guid(e9ceeb0bdca44b94a8aaefe78d7107cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitLeft.fbx using Guid(e9ceeb0bdca44b94a8aaefe78d7107cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac3939ebd8fc07712b4d51f0f3b42bd') in 0.111054 seconds
+  Import took 0.113330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenGunTakeOut.fbx
+  artifactKey: Guid(e3a5ef9c462aa6148905797ad21cea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenGunTakeOut.fbx using Guid(e3a5ef9c462aa6148905797ad21cea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4467f022e1c1a76165a7a5678f74f653') in 0.166229 seconds
+  Import took 0.168464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitRight.fbx
+  artifactKey: Guid(354357235aca8884584fd41a973a3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitRight.fbx using Guid(354357235aca8884584fd41a973a3882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd434cf65423c5586ef88eea2f4e3d5ca') in 0.302248 seconds
+  Import took 0.307116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperHit1.fbx
+  artifactKey: Guid(4fc6949e6b7737f4da8cd2e1ce1d66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/@ChomperHit1.fbx using Guid(4fc6949e6b7737f4da8cd2e1ce1d66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c44f03f176626b887b98c49cb26e622') in 0.158737 seconds
+  Import took 0.162610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBackRight.fbx
+  artifactKey: Guid(b895cfd7745f48346bc5b542aa1a0e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBackRight.fbx using Guid(b895cfd7745f48346bc5b542aa1a0e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8880565135897477f820dcc117935be2') in 0.150312 seconds
+  Import took 0.154515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle3.fbx
+  artifactKey: Guid(6bddc2fb042e88f4190b861b198db1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle3.fbx using Guid(6bddc2fb042e88f4190b861b198db1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c452b11069fe14de123bfc5c8f5b26d') in 0.168906 seconds
+  Import took 0.173461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBackRight.fbx
+  artifactKey: Guid(b895cfd7745f48346bc5b542aa1a0e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenHitBackRight.fbx using Guid(b895cfd7745f48346bc5b542aa1a0e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8880565135897477f820dcc117935be2') in 0.160183 seconds
+  Import took 0.163851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle3.fbx
+  artifactKey: Guid(6bddc2fb042e88f4190b861b198db1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenRandomIdle3.fbx using Guid(6bddc2fb042e88f4190b861b198db1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c452b11069fe14de123bfc5c8f5b26d') in 0.176414 seconds
+  Import took 0.179454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90LeftRun.fbx
+  artifactKey: Guid(2e6750cd6e0130946a094ddae3cec953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn90LeftRun.fbx using Guid(2e6750cd6e0130946a094ddae3cec953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64fffb44ea9500ef5f1d3c62941e03e') in 0.140065 seconds
+  Import took 0.142865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToRunForward.fbx
+  artifactKey: Guid(9e5e0bf7083ea6f43be5801e4da5f0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToRunForward.fbx using Guid(9e5e0bf7083ea6f43be5801e4da5f0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0015aad3744939a8fd3c6c57e441dd') in 0.159605 seconds
+  Import took 0.161905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.268484 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180LeftWalk.fbx
+  artifactKey: Guid(888c68e83ca1a1f4fbcef4fb038a3498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180LeftWalk.fbx using Guid(888c68e83ca1a1f4fbcef4fb038a3498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba539d9276eb4d214d0dec5c3732e83') in 0.098371 seconds
+  Import took 0.100946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafe90LeftWalkBackward.fbx
+  artifactKey: Guid(d93ef79bfc1950e4d8c56a399ca92bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafe90LeftWalkBackward.fbx using Guid(d93ef79bfc1950e4d8c56a399ca92bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7002dce4fd7cfe8155d61fd7c91c675') in 0.261375 seconds
+  Import took 0.264775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafeRunBackward.fbx
+  artifactKey: Guid(5ca4f665304d8f24ea830ab4f469a611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafeRunBackward.fbx using Guid(5ca4f665304d8f24ea830ab4f469a611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfee80abae0695176c0c2d8a6e2b38fe') in 0.164949 seconds
+  Import took 0.167730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft135.fbx
+  artifactKey: Guid(227c9e01d15b49745a0661cb18825f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft135.fbx using Guid(227c9e01d15b49745a0661cb18825f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a36ddf2366dfc95b04b2c190e7ecff7') in 0.158709 seconds
+  Import took 0.162063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft180.fbx
+  artifactKey: Guid(faa7022c83412e84faffe7b8e9f965de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft180.fbx using Guid(faa7022c83412e84faffe7b8e9f965de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc19e7a5439917cf8782173e264fb0aa') in 0.129058 seconds
+  Import took 0.133643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafe90LeftRunBackward.fbx
+  artifactKey: Guid(d5d602a570f72dd40a65bb246d70db53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafe90LeftRunBackward.fbx using Guid(d5d602a570f72dd40a65bb246d70db53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcbeef8d222c2dd4d3fef1417db9642') in 0.150578 seconds
+  Import took 0.152822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToWalkForward.fbx
+  artifactKey: Guid(d0bc6dfe2e7d2314a85951fa6f05b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToWalkForward.fbx using Guid(d0bc6dfe2e7d2314a85951fa6f05b0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea911c7777614ef903fbb3de3ce29e6b') in 0.237598 seconds
+  Import took 0.240047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight90.fbx
+  artifactKey: Guid(4008c9d5a93ce2e4bbfa153c963696d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight90.fbx using Guid(4008c9d5a93ce2e4bbfa153c963696d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc00684ec1175b7e2501bdbde9838092') in 0.114225 seconds
+  Import took 0.119507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenWalkForwardsLanding.fbx
+  artifactKey: Guid(51bed775c3e211e4d9fd33e30054478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenWalkForwardsLanding.fbx using Guid(51bed775c3e211e4d9fd33e30054478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56788a924559fdd36dc8c3e501078d02') in 0.127813 seconds
+  Import took 0.130136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafe90RightBackward.fbx
+  artifactKey: Guid(6ed74bb6d6a6bc04ca728087be4b6ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafe90RightBackward.fbx using Guid(6ed74bb6d6a6bc04ca728087be4b6ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4882132df20c657dce15c973c9e7136') in 0.111204 seconds
+  Import took 0.113554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft45.fbx
+  artifactKey: Guid(effcf99bf27527d4bb60e6ea50c792e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft45.fbx using Guid(effcf99bf27527d4bb60e6ea50c792e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd292b65fbe8a207288b3a7acda45ef2d') in 0.140482 seconds
+  Import took 0.143637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenWalkBackward.fbx
+  artifactKey: Guid(899aeaa13b49d6045ae7c2d4420eef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenWalkBackward.fbx using Guid(899aeaa13b49d6045ae7c2d4420eef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76905b9bd4216f1ec105d7af599a002b') in 0.263666 seconds
+  Import took 0.266355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight180.fbx
+  artifactKey: Guid(e1cce0de453816e4282371b40dc4f5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight180.fbx using Guid(e1cce0de453816e4282371b40dc4f5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3f767f03049898547959d17a6b3e22') in 0.135429 seconds
+  Import took 0.137769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180RightRun.fbx
+  artifactKey: Guid(f1a866e67d58e854bb2cfdd96e631327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180RightRun.fbx using Guid(f1a866e67d58e854bb2cfdd96e631327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6904ba349beadef54920edc04cc3e43c') in 0.143476 seconds
+  Import took 0.145906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight135.fbx
+  artifactKey: Guid(c5164fe4906b93a41944c80c94a7cdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight135.fbx using Guid(c5164fe4906b93a41944c80c94a7cdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0acdb15b3fb7edf54cc9cf36384c8db') in 0.195926 seconds
+  Import took 0.198349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_MetallicSmooth.tif
+  artifactKey: Guid(51ada4ba6b76219459e358a510c009dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_MetallicSmooth.tif using Guid(51ada4ba6b76219459e358a510c009dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafd08a616275dea8fd6b2a4c2818196') in 0.333738 seconds
+  Import took 0.335647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/Textures/Chomper_Normal.tif
+  artifactKey: Guid(937c2229d98699c4f9ac979b18b24a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/Textures/Chomper_Normal.tif using Guid(937c2229d98699c4f9ac979b18b24a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c977c4c9fc51185cba8efcb94bd3e32') in 0.097627 seconds
+  Import took 0.099816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Materials/RockChunk01_mat.mat
+  artifactKey: Guid(18da08da9c279494e87f918ddfd4197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Materials/RockChunk01_mat.mat using Guid(18da08da9c279494e87f918ddfd4197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a0091a4fa163bb588e66d0328b6b04') in 0.573950 seconds
+  Import took 0.576237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Occlusion.tif
+  artifactKey: Guid(49652e51668454a4cbe0ceaeb6ea1f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Occlusion.tif using Guid(49652e51668454a4cbe0ceaeb6ea1f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4ad601f307eb01f1085da2e91db7d7') in 0.178546 seconds
+  Import took 0.180705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/CliffBig01.fbx
+  artifactKey: Guid(843d122e5e84aa84db8a1036fe1d3dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/CliffBig01.fbx using Guid(843d122e5e84aa84db8a1036fe1d3dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f03003e5114b1a17c5df2fdf38adb8') in 0.603232 seconds
+  Import took 0.607150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Materials/CliffBig01_Mat.mat
+  artifactKey: Guid(3311bbf097e3ee64ebed88f09c6e5ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Materials/CliffBig01_Mat.mat using Guid(3311bbf097e3ee64ebed88f09c6e5ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6c4cd1ecf33e6160be9c7b3a3f801a') in 0.279778 seconds
+  Import took 0.290847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Albedo.tif
+  artifactKey: Guid(e396811bc8a737244811455e213cb254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Albedo.tif using Guid(e396811bc8a737244811455e213cb254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c79da7c504ba787f24d240c1819f57') in 0.107153 seconds
+  Import took 0.109936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/Textures/Chomper_DissolveGradient.tif
+  artifactKey: Guid(0d67bfeb62a5a9f41b28f61a84bd49da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/Textures/Chomper_DissolveGradient.tif using Guid(0d67bfeb62a5a9f41b28f61a84bd49da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4fde190164599b54d0650f770f52ce') in 0.022769 seconds
+  Import took 0.025488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/Textures/Chomper_MetallicSmooth.tif
+  artifactKey: Guid(b777e10d28a944c4ea05d834c049bdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/Textures/Chomper_MetallicSmooth.tif using Guid(b777e10d28a944c4ea05d834c049bdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c09c98868bedf1dfe037060e5e932e') in 0.065962 seconds
+  Import took 0.068217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/CliffBig02.fbx
+  artifactKey: Guid(4c27bf02daa2a7248821d10516e3a864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/CliffBig02.fbx using Guid(4c27bf02daa2a7248821d10516e3a864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d19cd94c9e5d1f932f5f8f302ecaf45') in 0.408581 seconds
+  Import took 0.412753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Albedo.tif
+  artifactKey: Guid(c1db9d9d57601ac4a930c0af00135b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Albedo.tif using Guid(c1db9d9d57601ac4a930c0af00135b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028534694cfc73bdeb792c879aa842a0') in 0.205204 seconds
+  Import took 0.210346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/Materials/Chomper_Albedo.mat
+  artifactKey: Guid(087b23fbf3d05d448b0cc81f071f25ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/AnimationClips/Materials/Chomper_Albedo.mat using Guid(087b23fbf3d05d448b0cc81f071f25ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1ad8414f1b3c16e8365b7ab109a427') in 0.353905 seconds
+  Import took 0.358528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Albedo.tif
+  artifactKey: Guid(533c0cb42b77daf45902d3338a663a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Albedo.tif using Guid(533c0cb42b77daf45902d3338a663a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40ad0e8552d089e1155c2f21cfb72c0') in 0.016518 seconds
+  Import took 0.019248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/Materials/Chomper_Internals_Mat.mat
+  artifactKey: Guid(4b16268047716604e8906338172a7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/Materials/Chomper_Internals_Mat.mat using Guid(4b16268047716604e8906338172a7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592c66b8dc1bb6a01facb0e7fb4f9a92') in 0.162597 seconds
+  Import took 0.164745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/Materials/Chomper_Body_Mat.mat
+  artifactKey: Guid(dad26cc8af5eca141b973d06942e6efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/Materials/Chomper_Body_Mat.mat using Guid(dad26cc8af5eca141b973d06942e6efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902c7680a1a5c3f4f496b65996cb590b') in 0.048372 seconds
+  Import took 0.051582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180RightWalk.fbx
+  artifactKey: Guid(967b6f580024ca041b7c2205ffb8f433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStationaryToTurn180RightWalk.fbx using Guid(967b6f580024ca041b7c2205ffb8f433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ecc33dceaddc9ff89d225903828585') in 0.133253 seconds
+  Import took 0.135917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafe90RightRunBackward.fbx
+  artifactKey: Guid(81c1dcd989841b24c84639b687b6acdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafe90RightRunBackward.fbx using Guid(81c1dcd989841b24c84639b687b6acdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7c50de69ab4968fdfff44d3e9775ea') in 0.124527 seconds
+  Import took 0.127377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenWalkForward.fbx
+  artifactKey: Guid(9d703e84815204b499c34db7f9ec5cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenWalkForward.fbx using Guid(9d703e84815204b499c34db7f9ec5cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fcb1719dec2984a06e94d0e8837ad3') in 0.184234 seconds
+  Import took 0.186982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Normal.tif
+  artifactKey: Guid(82483b9cec584734dae281c6cd4652f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Normal.tif using Guid(82483b9cec584734dae281c6cd4652f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f684333db8f631861c28c41b66eeb21') in 0.013486 seconds
+  Import took 0.015439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/Textures/Chomper_Occlusion.tif
+  artifactKey: Guid(8b8f71b26727fd347aa7a9584bad7892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/Textures/Chomper_Occlusion.tif using Guid(8b8f71b26727fd347aa7a9584bad7892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6479118c4fbd016fd328ab605e5a5ddf') in 0.010999 seconds
+  Import took 0.012938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Grenadier/AnimationClips/@GrenadierCloseRangeAttack.fbx
+  artifactKey: Guid(70b0e092b9e42f041a6d654770eb7fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Grenadier/AnimationClips/@GrenadierCloseRangeAttack.fbx using Guid(70b0e092b9e42f041a6d654770eb7fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cc28944f4decbf3f5536f81a170bd9') in 0.220623 seconds
+  Import took 0.223110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight45.fbx
+  artifactKey: Guid(b005565d63cd1a943b59195c8231f995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotRight45.fbx using Guid(b005565d63cd1a943b59195c8231f995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2049389b9e38a43d6ca655816956d3') in 0.130443 seconds
+  Import took 0.134029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Normals.tif
+  artifactKey: Guid(65b31c2bc8cf7bc4e9d09773ec9e1eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Normals.tif using Guid(65b31c2bc8cf7bc4e9d09773ec9e1eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4677cd13e5514c27d6899f0f9d7cc610') in 0.111890 seconds
+  Import took 0.117670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_MetallicSmooth.tif
+  artifactKey: Guid(3d11d83bd8b085f439b55825349b5120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_MetallicSmooth.tif using Guid(3d11d83bd8b085f439b55825349b5120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1120a56cf628e0986a2d2b6b4410d8d4') in 0.016154 seconds
+  Import took 0.020211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/RockChunk01.fbx
+  artifactKey: Guid(6faa4076a385e5e42a2cabd7f38a7b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Models/RockChunk01.fbx using Guid(6faa4076a385e5e42a2cabd7f38a7b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d57daa56dfba94dfe896154a3444cd') in 0.198389 seconds
+  Import took 0.201064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft90.fbx
+  artifactKey: Guid(6e36c05719123cf4d8f2981e1ce637ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenTurnOnSpotLeft90.fbx using Guid(6e36c05719123cf4d8f2981e1ce637ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c798a2c3e81817ca2a6de0590accc66') in 0.163390 seconds
+  Import took 0.166256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafeWalkBackward.fbx
+  artifactKey: Guid(72ccc97c139729742bbbdf4ebf0a7265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Ellen/AnimationClips/@EllenStrafeWalkBackward.fbx using Guid(72ccc97c139729742bbbdf4ebf0a7265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24cc90fb3fecc43e76baca10cdf0903f') in 0.241099 seconds
+  Import took 0.244913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000697 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
+  artifactKey: Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset using Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f8fc87ed4358f42bd4868452a2471a') in 0.004819 seconds
+  Import took 0.008155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/Textures/Chomper_Albedo.tif
+  artifactKey: Guid(a131a3e31f0c4794fbd8d1fd0d942b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/Textures/Chomper_Albedo.tif using Guid(a131a3e31f0c4794fbd8d1fd0d942b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0637401adce9dc980ff626b66662f27f') in 0.028851 seconds
+  Import took 0.031446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.975045 seconds.
+  path: Assets/ScriptableObjects/Asset.cs
+  artifactKey: Guid(8264d8f768aa14746a5fabb92c7ac307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Asset.cs using Guid(8264d8f768aa14746a5fabb92c7ac307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11801af86384198493f91fac156490bd') in 0.008619 seconds
+  Import took 0.011574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.190647 seconds.
+  path: Assets/Scripts/UserControlSystem/AssetsInjector.cs
+  artifactKey: Guid(35a0d7b658f400044a85cb0c6e403a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UserControlSystem/AssetsInjector.cs using Guid(35a0d7b658f400044a85cb0c6e403a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcaeb42901bd8866698ab03f901bc2d3') in 0.003543 seconds
+  Import took 0.005690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 500.476586 seconds.
+  path: Assets/Scripts/UserControlSystem/AssetsInjector.cs
+  artifactKey: Guid(35a0d7b658f400044a85cb0c6e403a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UserControlSystem/AssetsInjector.cs using Guid(35a0d7b658f400044a85cb0c6e403a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0f40afe6bcc9a232bc945856160423') in 0.002275 seconds
+  Import took 0.004998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 815.124372 seconds.
+  path: Assets/Scripts/UserControlSystem/ProduceUnitCommandHeir.cs
+  artifactKey: Guid(4e5745dc4c7bf164e9477536060f8891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UserControlSystem/ProduceUnitCommandHeir.cs using Guid(4e5745dc4c7bf164e9477536060f8891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd80fc81af60d41e8022292357b6e2e1') in 0.002544 seconds
+  Import took 0.005164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.646015 seconds.
+  path: Assets/Scripts/UserControlSystem/ProduceUnitCommandHeir.cs
+  artifactKey: Guid(4e5745dc4c7bf164e9477536060f8891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UserControlSystem/ProduceUnitCommandHeir.cs using Guid(4e5745dc4c7bf164e9477536060f8891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b66f3e6cd08d8c32b66a9e92037ad1') in 0.002212 seconds
+  Import took 0.004939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 423.083169 seconds.
+  path: Assets/Scripts/UserControlSystem/UI/Presenter/UIPresenter.asmdef
+  artifactKey: Guid(35f2621e62cf6f440be2e5cf3acefaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UserControlSystem/UI/Presenter/UIPresenter.asmdef using Guid(35f2621e62cf6f440be2e5cf3acefaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65315082f527a208e3119a536a95f95') in 0.049683 seconds
+  Import took 0.053133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.088410 seconds.
+  path: Assets/Scripts/UserControlSystem/UI/Presenter/UIPresenter.asmdef
+  artifactKey: Guid(35f2621e62cf6f440be2e5cf3acefaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UserControlSystem/UI/Presenter/UIPresenter.asmdef using Guid(35f2621e62cf6f440be2e5cf3acefaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60205f6ad34fc052f51ad01329c2504') in 0.002265 seconds
+  Import took 0.004455 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
